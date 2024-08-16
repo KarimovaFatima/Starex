@@ -1,0 +1,34 @@
+#services-page-img{
+  margin: 40px 0;
+}
+
+#services{
+  margin: 70px 0;
+    .services-content{
+      .services-content-title{
+        @include contentTitle;
+      }
+      .services-content-text{
+        @include contentText;
+      }
+      // margin-bottom: 30px;
+    }
+    .service-cards{
+        @include wrap;
+        .service-card{
+          margin: 20px 0;
+            .service-card-content{
+                width: 318px;
+                 h6{
+                    margin: 15px 0;
+                    color: $text-title-color;
+                    font-size: 1rem;
+                 }
+                 p{
+                    @include contentText
+                 }
+            }
+        }
+
+  }
+}

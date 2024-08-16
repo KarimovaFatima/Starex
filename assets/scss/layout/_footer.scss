@@ -1,0 +1,50 @@
+footer {
+  // width: 100%;
+  padding: 50px 0;
+  background-color: $background-color;
+  .footer-main-page {
+    display: flex;
+    gap: 10%;
+    .footer-main-left {
+      display: flex;
+      flex-direction: column;
+      .stores {
+        margin: 17px 0;
+        a img {
+          width: 100px;
+        }
+      }
+      .contact {
+        margin-top: 150px;
+        a {
+          color: $content-title-color;
+          font-size: 18px;
+        }
+      }
+    }
+    .footer-main-right {
+      display: flex;
+      align-items: start;
+      gap: 150px;
+      h4 {
+        color: $content-title-color;
+        font-size: 25px;
+        margin-bottom: 20px;
+      }
+      a {
+        @include contentText;
+      }
+      :hover {
+        color: $primary-color;
+      }
+    }
+  }
+  .divider{
+    border: 0.1px solid $text-color;
+    margin: 35px 0;
+  }
+  .footer-bottom p{
+    color: $content-title-color;
+
+  }
+}

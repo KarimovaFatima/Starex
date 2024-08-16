@@ -1,0 +1,30 @@
+@mixin primaryBtn($padding: 12px 18px) {
+    padding: $padding;
+    background-color: $primary-color;
+    color: $white-color;
+    border: none;
+    border-radius: 4px;
+}
+
+@mixin contentTitle{
+    font-size: 1.5rem;
+    color: $content-title-color;
+}
+
+@mixin textCenter{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+@mixin wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@mixin contentText{
+    line-height: 1.5rem;
+    font-size: 1rem;
+    color: $text-color;
+    margin: 1rem 0;
+}

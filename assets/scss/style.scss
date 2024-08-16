@@ -1,0 +1,15 @@
+@import "./utils/variables";
+@import "./utils/mixins";
+@import "./base/reset";
+@import "./base/common";
+@import "./base/responsive";
+@import "./layout/header";
+@import "./layout/footer";
+@import "./pages/home/homeheader";
+@import "./pages/home/home";
+@import "./pages/terms/terms";
+@import "./pages/service/services";
+@import "./pages/contact/contact";
+@import "./pages/tariff/calculate";
+@import "./pages/tariff/tariff";
+@import "./pages/news/news";

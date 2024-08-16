@@ -1,0 +1,90 @@
+@media (max-width: 992px) {
+    .container{
+        max-width: 750px;
+    }      
+    header{
+        .home-header{
+            position: static !important;
+            background-color: $white-color !important;
+        }
+         .header-top{
+            display: none !important; 
+         }
+         .navigation{
+            display: none;
+         }
+         .header-button{
+            display: none;
+         }
+         .navbar-dnone{
+            display: block !important;
+         }
+         .icons-dnone{
+            display: block !important;
+         }
+    }
+    main{
+        #intro{
+            .intro-bg-img img{
+                height: 400px;
+            }
+            .intro-content{
+                display: flex;
+                text-align: center;
+                flex-direction: column;
+            }
+            .intro-page-search{
+                display: none;
+            }
+        }
+        #intro-input{
+            display: block !important;
+            background-color: $background-color;
+            margin: -4px 0;
+            padding: 25px 10px;
+            width: 100%;
+            .d-none-intro-content{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                 h4{
+                    font-weight: 400;
+                    font-size: 18px;
+                    color: #39464E;
+                    margin: 10px 0;
+                 }
+                 p{
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #39464E;
+                 }
+                .intro-page-search-d-none input{
+                    padding: 12px 20px;
+                    background-color: $white-color;
+                    border: 1px solid gray;
+                    width: 900px;
+                    border-radius: 4px;
+                    margin: 20px 0;
+                }
+                .intro-page-search-button-d-none {
+                    padding: 12px 18px;
+                    background-color: $primary-color;
+                    color: $white-color;
+                    border: none;
+                    border-radius: 4px;
+                    width: 900px;
+                    cursor: pointer;
+                }
+            }
+        }
+        // #how-is-it-working{
+            
+        // }
+    }
+    footer{
+        .footer-main-page{
+            display: none !important;
+        }
+    }
+}
